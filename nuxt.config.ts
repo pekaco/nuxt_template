@@ -37,6 +37,10 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
+  sitemap: {
+    path: "/sitemap.xml",
+    hostname: PRODUCTION_URL,
+  },
   buildmodules: ["@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
