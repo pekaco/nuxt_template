@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "lint": "eslint --ext .ts,.js,.vue .",
     "lint:fix": "eslint --fix --ext .ts,.js,.vue .",
-    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore"
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
+    "lint:style:fix": "stylelint \"**/*.{vue,css}\" --fix --ignore-path .gitignore"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint:js",
