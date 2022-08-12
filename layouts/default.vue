@@ -18,17 +18,17 @@ body {
 }
 
 .heading {
-  font-family: "Noto Serif Japanese";
+  font-family: "Noto Serif Japanese", serif;
   font-feature-settings: palt, 1;
   font-kerning: normal;
 }
+
 p {
+  font-size: 16px;
   font-weight: medium;
-  line-height: 32px;
   font-feature-settings: palt, 0;
   font-kerning: none;
-
+  line-height: 32px;
   text-align: justify;
-  font-size: 16px;
 }
 </style>
