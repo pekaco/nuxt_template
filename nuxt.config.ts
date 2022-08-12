@@ -37,4 +37,11 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
+  modules: ["@nuxtjs/google-fonts"],
+  googleFonts: {
+    families: {
+      "Noto Serif Japanese": [500],
+    },
+    display: "swap",
+  },
 });
