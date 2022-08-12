@@ -1,9 +1,9 @@
 import { defineNuxtConfig } from "nuxt";
 
 // サイトリンクに表示したい内容
-const TITLE = ref("Site Title");
-const DESCRIPTION = ref("Site Description");
-const PRODUCTION_URL = ref("Site URL");
+const TITLE = "Site Title";
+const DESCRIPTION = "Site Description";
+const PRODUCTION_URL = "Site URL";
 
 const OGP_IMAGE_URL =
   process.env.VERCEL_ENV === "preview"
@@ -37,7 +37,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
-  modules: ["@nuxtjs/google-fonts"],
+  buildmodules: ["@nuxtjs/google-fonts"],
   googleFonts: {
     families: {
       "Noto Serif Japanese": [500],
