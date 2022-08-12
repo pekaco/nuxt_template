@@ -8,7 +8,7 @@
     "preview": "nuxt preview",
     "lint": "eslint --ext .ts,.js,.vue .",
     "lint:fix": "eslint --fix --ext .ts,.js,.vue .",
-    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore"
   },
   "lint-staged": {
     "*.{js,vue}": "npm run lint:js",
@@ -31,7 +31,10 @@
     "@nuxtjs/google-fonts": "^3.0.0-0",
     "@nuxtjs/stylelint-module": "^4.1.0",
     "css-property-orders": "0.0.1",
-    "eslint-plugin-css-reorder": "^0.5.1",
+    "postcss": "^8.4.16",
+    "postcss-html": "^1.5.0",
+    "postcss-loader": "^7.0.1",
+    "postcss-nested": "^5.0.6",
     "stylelint": "^14.10.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
