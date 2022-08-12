@@ -23,11 +23,12 @@ body {
   font-kerning: normal;
 }
 p {
-  font-size: 16px;
   font-weight: medium;
   line-height: 32px;
-  text-align: justify;
   font-feature-settings: palt, 0;
   font-kerning: none;
+
+  text-align: justify;
+  font-size: 16px;
 }
 </style>
