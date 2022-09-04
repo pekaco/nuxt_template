@@ -48,4 +48,15 @@ export default defineNuxtConfig({
     },
     display: "swap",
   },
+
+  // Global CSS: https://go.nuxtjs.dev/config-css
+  css: ["destyle.css"],
+
+  postcss: {
+    // キーとしてプラグイン名を、値として引数を追加します
+    // プラグインは前もって npm か yarn で dependencies としてインストールしておきます
+    plugins: {
+      "postcss-nested": {},
+    },
+  },
 });
