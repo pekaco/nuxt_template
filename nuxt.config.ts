@@ -36,18 +36,18 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    [
       "@nuxtjs/google-fonts",
-      {
-        families: {
-          "Noto Serif Japanese": [500],
-        },
-        display: "swap",
-        download: true,
-        inject: true,
-      },
-    ],
   ],
+
+  googleFonts: {
+    families: {
+      "Noto Sans JP": [100,200,300,400,500,600,700,800,900],
+     
+    },
+    display: "swap",
+    download: true,
+    inject: true,
+  },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["destyle.css"],
