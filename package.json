@@ -33,7 +33,7 @@
     "@nuxtjs/stylelint-module": "^4.1.0",
     "consola": "^3.2.3",
     "css-property-orders": "0.0.1",
-    "destyle.css": "^3.0.2",
+    "destyle.css": "^4.0.0",
     "postcss": "^8.4.16",
     "postcss-html": "^1.5.0",
     "postcss-loader": "^7.0.1",
