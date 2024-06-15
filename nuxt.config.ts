@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
-
 // サイトリンクに表示したい内容
 const TITLE = "Site Title";
 const DESCRIPTION = "Site Description";
@@ -16,14 +14,14 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: {
         lang: "ja",
-        prefix: "og: http://ogp.me/ns#",
+        prefix: "og: https://ogp.me/ns#",
       },
       title: "My Site",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
         { name: "description", content: DESCRIPTION },
-        { property: "og:site_name", content: "Site Name" },
+        { property: "og:site:name", content: "Site Name" },
         { property: "og:type", content: "website" },
         { property: "og:url", content: PRODUCTION_URL },
         { property: "og:title", content: TITLE },
@@ -34,19 +32,21 @@ export default defineNuxtConfig({
         { name: "twitter:image", content: OGP_IMAGE_URL },
         { name: "twitter:description", content: DESCRIPTION },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [{ rel: "icon", href: "/favicon.ico" }],// type属性を省略
     },
   },
-  sitemap: {
-    path: "/sitemap.xml",
-    hostname: PRODUCTION_URL,
-  },
-  buildmodules: ["@nuxtjs/google-fonts"],
+  modules: [
+      "@nuxtjs/google-fonts",
+  ],
+
   googleFonts: {
     families: {
-      "Noto Serif Japanese": [500],
+      "Noto Sans JP": [100,200,300,400,500,600,700,800,900],
+     
     },
     display: "swap",
+    download: true,
+    inject: true,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

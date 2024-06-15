@@ -8,7 +8,7 @@
 <style>
 html,
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+  font-family: "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
     "游ゴシック", "Yu Gothic", sans-serif;
   color: #424242;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +25,7 @@ body {
 
 p {
   font-size: 16px;
-  font-weight: medium;
+  font-weight: 400;
   font-feature-settings: palt, 0;
   font-kerning: none;
   line-height: 32px;
