@@ -32,17 +32,14 @@ export default defineNuxtConfig({
         { name: "twitter:image", content: OGP_IMAGE_URL },
         { name: "twitter:description", content: DESCRIPTION },
       ],
-      link: [{ rel: "icon", href: "/favicon.ico" }],// type属性を省略
+      link: [{ rel: "icon", href: "/favicon.ico" }], // type属性を省略
     },
   },
-  modules: [
-      "@nuxtjs/google-fonts",
-  ],
+  modules: ["@nuxtjs/google-fonts"],
 
   googleFonts: {
     families: {
-      "Noto Sans JP": [100,200,300,400,500,600,700,800,900],
-     
+      "Noto Sans JP": [100, 200, 300, 400, 500, 600, 700, 800, 900],
     },
     display: "swap",
     download: true,

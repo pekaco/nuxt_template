@@ -1,9 +1,9 @@
-
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.fixAll.stylelint": "explicit"
   },
-  "stylelint.validate": ["vue"]
+  "stylelint.validate": ["vue"],
+  "editor.formatOnSave": true
 }
