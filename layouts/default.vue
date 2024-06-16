@@ -8,8 +8,7 @@
 <style>
 html,
 body {
-  font-family: "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック Medium",
-    "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: #424242;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,7 +17,6 @@ body {
 }
 
 .heading {
-  font-family: "Noto Serif Japanese", serif;
   font-feature-settings: palt, 1;
   font-kerning: normal;
 }
@@ -28,7 +26,7 @@ p {
   font-weight: 400;
   font-feature-settings: palt, 0;
   font-kerning: none;
-  line-height: 32px;
+  line-height: 24px;
   text-align: justify;
 }
 </style>
